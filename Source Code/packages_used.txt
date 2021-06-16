@@ -1,0 +1,34 @@
+#-------------------------Packages-----------------------
+
+1. Tensor flow
+2. python 3.8
+3. flask
+4. werkzeug
+5. matplotlib
+6. json
+
+
+#-------------------------support for cross platform ----------------------
+1. cmake
+2. Dlib
+
+#----------------------------total lines of code ----------------------
+
+97 + 39 + 263 = 399 lines of code
+[check only these file (app.py, test_script_client.py, setup.py) ]
+
+you can find trained model and screen shorts in a folder named 
+--> image_and_results
+
+datasets collected from Emotion challenge
+
+Dataset name -> FER2013
+source -> wolfram data repository
+
+we use LSTM over this dataset to get more accurate values 
+the model is trained using cnn and feeded to the server in ".h5" formatt
+this is a model file which can be retrained
+we retrain this model file with the data's stored in lstm
+
+-> this process in done automatically over the cloud in our AWS Server
+-> Advantage = the model gets stronger on frequent usage
